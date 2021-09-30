@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    background: url(images/bg-header-desktop.png) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 130px 70px;
+}
+
+.intro {
+    margin-top: 60px;
+    text-align: center;
+    width: 60%;
+}
+
+.intro h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.intro p {
+    font-size: 20px;
+    padding: 0 45px;
+}
+
+.btn {
+    padding: 40px 0;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    color: hsla(0, 0%, 100%, 0.8);
+    cursor: pointer;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 16px 35px 12px 35px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 8px hsl(171, 66%, 28%), 0px 2px 2px hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 8px hsl(233, 53%, 54%), 0px 2px 2px hsl(233, 53%, 54%);
+}
+
+#snippets {
+    margin: auto;
+    text-align: center;
+    width: 45%;
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#feature-box {
+    align-items: center;
+    display: flex;
+    margin: 100px auto 155px auto;
+}
+
+.features {
+    margin-left: 115px;
+    width: 23%;
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.feature {
+    margin-bottom: 60px;
+}
+
+#access {
+    text-align: center;
+}
+
+#access p {
+    padding: 0 395px;
+}
+
+#access img {
+    margin: 100px auto 80px auto;
+}
+
+#workflow {
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    margin: 80px 60px;
+    text-align: center;
+}
+
+.tool {
+    margin: 0 20px;
+    width: 25%;
+}
+
+.tool img {
+    margin: 0px 0 35px 0;
+    width: 40px;
+}
+
+.tool-3 img {
+    width: 55px;
+}
+
+.tool p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+#logos {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+#call-to-action {
+    margin: 160px auto;
+    text-align: center;
+    width: 46%;
+}
+
+
+footer {
+    background-color: hsl(0, 0%, 97%);
+    padding: 40px 150px;
+}
+
+footer .content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+    margin: 0 70px;
+    width: 60px;
+}
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 640px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 40px;
+}
+
+a {
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.socials i {
+    color: hsl(210, 10%, 33%);
+    font-size: 28px;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.socials img:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.socials i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+@media (max-width: 1028px) {
+    header {
+        background: url(./images/bg-header-mobile.png) center/cover no-repeat;
+        padding: 40px 10px;
+    }
+
+    .intro {
+        width: 90%;
+    }
+
+    .intro h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .intro p {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    button {
+        padding: 16px 100px 12px 100px;
+    }
+
+    .ios-btn {
+        margin-bottom: 25px;
+    }
+
+    #snippets {
+        margin-top: 100px;
+        width: 80%;
+    }
+
+    #feature-box {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 120px;
+        margin-top: 80px;
+    }
+
+    #feature-box img {
+        width: 80%;
+    }
+
+    .features{
+        margin: 60px 12% auto;
+        width: 80%;
+    }
+
+    .feature {
+        text-align: center;
+    }
+
+    #access {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .access-text {
+        width: 80%;
+    }
+
+    #access p {
+        padding: 0;
+    }
+
+    #access img {
+        margin-top: 60px;
+        width: 95%;
+    }
+
+    #workflow {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .workflow-txt {
+        width: 75%;
+    }
+
+    .tools {
+        align-items: center;
+        flex-direction: column;
+        margin: 100px auto;
+    }
+
+    .tool {
+        width: 85%;
+    }
+
+    .tool-2, .tool-3 {
+        margin-top: 60px;
+    }
+
+    .tool-3 {
+        width: 75%;
+    }
+
+    #logos {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #logos img {
+        margin-bottom: 80px;
+    }
+
+    #call-to-action {
+        margin: 100px auto;
+        width: 80%;
+    }
+
+    footer {
+        padding: 60px 150px 0px;
+    }
+
+    footer .content {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .content div, ul {
+        margin-bottom: 30px;
+    }
+
+    .content ul {
+        display: block;
+        list-style: none;
+    }
+    
+    ul li {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .socials i {
+        margin: 0 20px;
+    }
+}
